@@ -97,11 +97,11 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 **For Digital Investigators**
 
 
-- Threat Intelligence: Identify potential threats through digital footprint analysis
+- **Threat Intelligence**: Identify potential threats through digital footprint analysis
 
-- Identity Verification: Confirm subject identities through multiple data points
+- **Identity Verification**: Confirm subject identities through multiple data points
 
-- Connection Mapping: Establish relationships between different data elements
+- **Connection Mapping**: Establish relationships between different data elements
 
 ---
 
