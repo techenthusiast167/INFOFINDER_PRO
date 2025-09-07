@@ -137,7 +137,14 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 
 **Manual Installation**
 
-KIndly install the tool via the link using nano...
+- Create your virtual environment
+
+- Follow the link below, copy and install the tool script manually using nano: **https://gist.github.com/techenthusiast167/75e44a3f5e4abc268c9c86b098a85268**
+
+**Example**:
+
+- **nano infofinder_pro.py**
+- Press **Ctrl + O, Enter, Ctrl + X** to save and exit
 
 **Install Dependencies**
 
