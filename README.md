@@ -325,7 +325,7 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 
 # Contributing
 
-**I welcome contributions to enhance Cyber Intel OSINT Tool:**
+**I welcome contributions to enhance INFOFINDER_PRO Tool:**
 
 - Fork the repository
 
