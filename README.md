@@ -1,6 +1,6 @@
 # INFOFINDER_PRO
 
-A comprehensive Python-based OSINT (Open Source Intelligence) tool for email and phone number verification with breach detection, social media lookup, and digital footprint analysis capabilities.
+Advanced Open Source Intelligence (OSINT) tool for email analysis, social media scraping, and phone number investigation with professional entity relationship graphing.
 
 
 ---
@@ -41,44 +41,51 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 
 # Features
 
-**Email Analysis**
+**1. Email Analysis**
 
-- Syntax Validation: Validates email format and structure
+- **Syntax Validation**: Validates email format and structure
 
-- MX Record Check: Verifies domain mail exchange records
+- **MX Record Check**: Verifies domain mail exchange records
 
-- Disposable Email Detection: Identifies temporary email services
+- **Disposable Email Detection**: Identifies temporary email services
 
-- Breach Database Check: Searches HaveIBeenPwned for data breaches
+- **Breach Database Check**: Searches HaveIBeenPwned for data breaches
 
-- Gravatar Profile Lookup: Checks for Gravatar profiles
+- **Gravatar Profile Lookup**: Checks for Gravatar profiles
 
-- GitHub Account Search: Finds GitHub users associated with email
+- **GitHub Account Search**: Finds GitHub users associated with email
 
-- Social Media Search: Generates search URLs across multiple platforms
+- **Social Media Search**: Generates search URLs across multiple platforms
 
-- Email Verification: Uses Hunter.io API for email validation
+- **Email Verification**: Uses Hunter.io API for email validation
 
-- Pastebin Scanning: Checks for email exposure in public pastes
+- **Pastebin Scanning**: Checks for email exposure in public pastes
 
-- Name Extraction: Intelligently extracts names from email addresses
+- **Name Extraction**: Intelligently extracts names from email addresses
 
-- Social Deep Dive: Comprehensive social media analysis
+- **Social Deep Dive**: Comprehensive social media analysis
+
+- **Entity Relationship Graphing**: visualizations
+
+- - - 
+
+**2. Social Media Username Scraper**
+
 
 
 ---
 
-**Phone Number Analysis**
+**3. Phone Number Analysis**
 
-- Number Validation: Validates phone number format and existence
+- **Number Validation**: Validates phone number format and existence
 
-- Carrier Identification: Identifies mobile network carriers
+- **Carrier Identification**: Identifies mobile network carriers
 
-- Geolocation: Determines approximate geographical location
+- **Geolocation**: Determines approximate geographical location
 
-- Timezone Detection: Identifies relevant timezones
+- **Timezone Detection**: Identifies relevant timezones
 
-- Google Dorking: Generates search queries for OSINT investigations
+- **Google Dorking**: Generates search queries for OSINT investigations
 
 ---
 
@@ -148,15 +155,7 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 
 **Install Dependencies**
 
-    pip install requests
-    pip install dnspython
-    pip install phonenumbers
-    pip install pandas
-    pip install reportlab
-
-**OR**
-
-    pip install requests dnspython phonenumbers pandas reportlab
+    pip install requests dnspython pandas phonenumbers reportlab matplotlib networkx pillow beautifulsoup4 fake-useragent
 
 ---
 
@@ -180,9 +179,9 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 **The tool launches in interactive mode, prompting you to**:
 
 
-- Choose between email or phone number analysis
+- Choose between **email, social media username scraper, or phone number** analysis
 
-- Enter the target email or phone number
+- Enter the target email, username, or phone number
 
 - View comprehensive results in the terminal
 
@@ -200,12 +199,22 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 - **Select analysis type**:
   
   1. Email Analysis
-  2. Phone Number Analysis
+  2. Social Media Scraper
+  3. Phone Number Analysis
 
-**Enter your choice (1 or 2):** 1
+**Enter your choice (1, 2, or 3):** 1
 **Enter email address:** example@domain.com
 
 ---
+
+**Social Media Username Scraper Example**
+
+- python3 infofinder_pro.py
+
+- **Select analysis type**
+
+**Enter your choice (1, 2, or 3):** 2
+**Enter phone number (with country code):** NetworkChuck
 
 **Phone Analysis Example**
 
@@ -215,9 +224,10 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
 - **Select analysis type:**
 
   1. Email Analysis
-  2. Phone Number Analysis
+  2. Social Media Username Scraper
+  3. Phone Number Analysis
 
-**Enter your choice (1 or 2):** 2
+**Enter your choice (1, 2 or 3):** 3
 **Enter phone number (with country code):** +1234567890
 
 ---
@@ -246,6 +256,10 @@ Cyber Intel OSINT Tool is a powerful Python application designed for cybersecuri
   LinkedIn: https://www.linkedin.com/search/results/people/?keywords=John+Doe
 
 ---
+**Sample Output for Social Media Username Scraper Analysis**
+
+coming up…
+- - - 
 
 **Sample Output for Phone Number Analysis**
 
